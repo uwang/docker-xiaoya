@@ -3,9 +3,6 @@
 service="$1"
 services=(
     "alist"
-    "emby"
-    "jellyfin"
-    "metadata"
 )
 
 if [ -z "$service" ]; then
